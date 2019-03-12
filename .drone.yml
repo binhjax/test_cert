@@ -1,15 +1,13 @@
 kind: pipeline
 name: default
 
-steps:
-- name: frontend
-  image: node
-  commands:
-  - npm install
-  - npm test
+workspace:
+  base: /go
+  path: src/github.com/octocat/hello-world
 
-- name: backend
+steps:
+- name: test
   image: golang
   commands:
-  - go build
+  - go get
   - go test
