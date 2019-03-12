@@ -1,0 +1,45 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            fa:ac:15:52:9f:b7:53:7a:e2:12:24:d4:d5:ac:20:3c
+    Signature Algorithm: ecdsa-with-SHA256
+        Issuer: O=Vnpay Corporation, CN=Root CA
+        Validity
+            Not Before: Feb 22 02:48:42 2019 GMT
+            Not After : Feb 22 02:48:42 2020 GMT
+        Subject: O=Vnpay Corporation, CN=Root CA
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (256 bit)
+                pub: 
+                    04:0b:84:47:6a:f5:dc:a4:9c:b3:7f:ae:ce:af:07:
+                    cb:59:b0:4b:41:9c:f6:11:ca:ca:c2:36:b0:a6:48:
+                    93:00:7c:f1:c0:1a:d7:b8:17:b0:1d:6c:fe:52:78:
+                    7c:42:cb:38:9b:fe:44:fe:ed:95:14:e6:7e:0f:a5:
+                    30:db:1c:08:e4
+                ASN1 OID: prime256v1
+                NIST CURVE: P-256
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Certificate Sign
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Basic Constraints: critical
+                CA:TRUE
+    Signature Algorithm: ecdsa-with-SHA256
+         30:45:02:21:00:da:04:fc:76:4c:f9:cc:f9:24:ec:36:90:05:
+         61:b4:22:02:7a:db:96:50:3f:69:64:6c:69:26:3d:1c:09:90:
+         37:02:20:5e:2a:b0:e1:fa:fc:2e:12:63:5e:57:76:c0:91:14:
+         66:dd:e7:26:e9:b6:a5:a3:05:c9:5d:fa:68:36:f9:41:d8
+-----BEGIN CERTIFICATE-----
+MIIBkzCCATmgAwIBAgIRAPqsFVKft1N64hIk1NWsIDwwCgYIKoZIzj0EAwIwLjEa
+MBgGA1UEChMRVm5wYXkgQ29ycG9yYXRpb24xEDAOBgNVBAMTB1Jvb3QgQ0EwHhcN
+MTkwMjIyMDI0ODQyWhcNMjAwMjIyMDI0ODQyWjAuMRowGAYDVQQKExFWbnBheSBD
+b3Jwb3JhdGlvbjEQMA4GA1UEAxMHUm9vdCBDQTBZMBMGByqGSM49AgEGCCqGSM49
+AwEHA0IABAuER2r13KScs3+uzq8Hy1mwS0Gc9hHKysI2sKZIkwB88cAa17gXsB1s
+/lJ4fELLOJv+RP7tlRTmfg+lMNscCOSjODA2MA4GA1UdDwEB/wQEAwICBDATBgNV
+HSUEDDAKBggrBgEFBQcDATAPBgNVHRMBAf8EBTADAQH/MAoGCCqGSM49BAMCA0gA
+MEUCIQDaBPx2TPnM+STsNpAFYbQiAnrbllA/aWRsaSY9HAmQNwIgXiqw4fr8LhJj
+Xld2wJEUZt3nJum2paMFyV36aDb5Qdg=
+-----END CERTIFICATE-----

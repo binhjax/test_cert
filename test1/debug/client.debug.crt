@@ -1,0 +1,44 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 4 (0x4)
+    Signature Algorithm: ecdsa-with-SHA256
+        Issuer: O=Vnpay Corporation, CN=Root CA
+        Validity
+            Not Before: Feb 22 02:48:42 2019 GMT
+            Not After : Feb 22 02:48:42 2020 GMT
+        Subject: O=Acme Co, CN=client_auth_test_cert
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (256 bit)
+                pub: 
+                    04:4f:05:6a:2d:d6:2a:44:89:ba:a6:db:3d:1e:82:
+                    ed:ec:47:6e:9b:27:99:ac:a1:21:e4:7e:3d:c8:5e:
+                    6e:5e:48:d0:36:25:cf:e6:2a:76:27:d2:b6:3c:54:
+                    e8:8b:2b:83:15:78:fa:d2:a5:5e:fb:68:08:46:f3:
+                    d9:3c:21:47:3c
+                ASN1 OID: prime256v1
+                NIST CURVE: P-256
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Digital Signature
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+    Signature Algorithm: ecdsa-with-SHA256
+         30:46:02:21:00:b7:55:eb:68:88:33:39:25:44:e9:23:37:2c:
+         01:01:2f:02:40:6f:c3:24:8b:b3:8b:d8:a6:58:64:58:3b:1d:
+         67:02:21:00:dc:a5:c1:89:4e:e1:21:5f:78:d7:06:80:80:18:
+         d3:fb:bb:40:73:05:c1:b6:06:39:ba:f3:1e:4f:4d:08:a8:bc
+-----BEGIN CERTIFICATE-----
+MIIBhTCCASqgAwIBAgIBBDAKBggqhkjOPQQDAjAuMRowGAYDVQQKExFWbnBheSBD
+b3Jwb3JhdGlvbjEQMA4GA1UEAxMHUm9vdCBDQTAeFw0xOTAyMjIwMjQ4NDJaFw0y
+MDAyMjIwMjQ4NDJaMDIxEDAOBgNVBAoTB0FjbWUgQ28xHjAcBgNVBAMMFWNsaWVu
+dF9hdXRoX3Rlc3RfY2VydDBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABE8Fai3W
+KkSJuqbbPR6C7exHbpsnmayhIeR+Pchebl5I0DYlz+YqdifStjxU6IsrgxV4+tKl
+XvtoCEbz2TwhRzyjNTAzMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
+BQcDAjAMBgNVHRMBAf8EAjAAMAoGCCqGSM49BAMCA0kAMEYCIQC3VetoiDM5JUTp
+IzcsAQEvAkBvwySLs4vYplhkWDsdZwIhANylwYlO4SFfeNcGgIAY0/u7QHMFwbYG
+ObrzHk9NCKi8
+-----END CERTIFICATE-----
